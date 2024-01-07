@@ -18,7 +18,6 @@ class SplashActivity : AppCompatActivity() {
             startActivity(intent)
             window.statusBarColor = Color.parseColor("#A977C7FC")
             finish()
-            // if we don't write finish() then clicking back button in MainActivity will take us to splash screen
         }, 3000)
     }
 }
